@@ -1,0 +1,53 @@
+/* color scheme - #E6EEF0 #6592A5 #0D5572 #60757D #062734 */
+
+body {
+	font-size: 16px;
+	color: #fff;
+	background-color: #E6EEF0;
+	font-family: 'Baskervville', serif;
+}
+#header-nav {
+	background-color: #60757D;
+	border-radius: 0;
+	border: 0;
+}
+#logo-img {
+	background: url('../img/logo.png') no-repeat;
+	width: 200px;
+	height: 200px;
+	float: left;
+}
+.navbar-brand h1 {
+	font-family: 'Lato', sans-serif;
+	color: #062734;
+	font-size: 2em;
+	margin-top: 100px;
+	margin-bottom: 0;
+	line-height: .75;
+	al
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+.navbar-brand p {
+	color: #fff;
+}
+#nav-list a {
+	text-decoration: none;
+	color: #E6EEF0;
+	text-align: center;
+}
+#nav-list a:hover {
+	color: #062734
+}
+#nav-list {
+	color: #E6EEF0;
+	font-family: 'Lato', sans-serif;
+	font-size: 1.5em;
+
+	
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #E6EEF0; 
+	background-color: #6592A5;
+}
