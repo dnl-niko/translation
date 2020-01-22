@@ -1,11 +1,26 @@
 /* color scheme - #E6EEF0 eisgrau, #6592A5 türk, #0D5572 ,
  #60757D navblau, #062734 logoblau, #d6e3e6 hover:fields*/
-
+html {
+  font-size: 16px;
+}
+@media screen and (min-width: 320px) {
+  html {
+    font-size: calc(16px + 6 * ((100vw - 320px) / 680));
+  }
+}
+@media screen and (min-width: 1000px) {
+  html {
+    font-size: 22px;
+  }
+}
 body {
-	font-size: 16px;
+	font-size: 1em;
 	color: #062734;
 	background-color: #E6EEF0;
 	font-family: 'Baskervville', serif;
+}
+#preise {
+	font-size: 1em;
 }
 body >.container {
 	padding-top: 80px;
@@ -58,7 +73,7 @@ p.comment {
 .navbar-brand h1 {
 	font-family: 'Baskervville', serif;
 	color: #062734;
-	font-size: 2em;
+	font-size: 2vw;
 	margin-top: 0px;
 	margin-bottom: 0;
 	line-height: .75;
@@ -79,7 +94,7 @@ p.comment {
 #nav-list {
 	color: #E6EEF0;
 	font-family: 'Baskervville', serif;
-	font-size: 1.3em;
+	font-size: 24px;
 }
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
 	border: 1px solid #E6EEF0; 
